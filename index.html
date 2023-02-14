@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <article class="summary__card">
+
+      <img class="summary__hero" src="/images/illustration-hero.svg" alt="A women dancing to music from headphones">
+
+      <section class="summary__body">
+        <h1 class="summary__title center accent">Order Summary</h1>
+        <p class="center">
+          You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+
+        <section class="summary__price flex-group bg-pale-blue">
+
+          <section class="flex-group ">
+            <img src="images/icon-music.svg" alt="Musical note on gray background." width="48" height="48"
+              style="width: auto;">
+
+            <div>
+              <h2 class="plan__title accent">Annual Plan</h2>
+              <p>$59.99/year</p>
+            </div>
+
+          </section>
+          <a class="plan__change invert" href="">Change</a>
+        </section>
+
+        <div class="btn-group">
+          <button class="btn btn-blue invert">Proceed to Payment</button>
+          <button class="btn darken">Cancel Order</button>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Igor</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
