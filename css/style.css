@@ -88,7 +88,7 @@
  /* SUMMARY */
 
  .summary__card {
-    width: clamp(330px, 25vw, 450px);
+    width: clamp(330px, 25vw, 550px);
     border-radius: var(--ROUNDNESS);
     background-color: white;
     color: var(--DESATURETED-BLUE);
